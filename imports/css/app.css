@@ -1,0 +1,59 @@
+
+.site-layout-content {
+    min-height: 830px;
+    max-height: 830px;
+    overflow: hidden;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #999;
+    position: relative;
+  }
+  #components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  .app-layout {
+    background-color: #fff;
+    min-height: 100vh ;
+  }
+  .ant-layout-header{
+    padding: 0 240px;
+  }
+  .content{
+      padding:0 250px 10px 250px;
+  }
+  .footer{
+    text-align: center ;
+    border-top:1px solid #001529;
+    background: #001529;
+  }
+  .ant-pagination{
+    position: absolute;
+    left: 42%;
+    bottom: 20px;
+  }
+  .ant-card-body{
+    padding:10px;
+  }
+  .ant-descriptions-title {
+    color: #fff !important;
+  }
+  .ant-descriptions-item-label {
+    color: #fff !important;
+  }
+  .ant-descriptions-item-content{
+    color: #fff !important;
+  }
+
+  #waifu{
+    left: unset!important;
+    right: 0px!important;
+  }
